@@ -1,5 +1,5 @@
 {
-  "name": "studio/laravel-totem",
+  "name": "eilander/laravel-totem",
   "description": "A Laravel package to manage your cron jobs through a beautiful dashboard",
   "keywords": [
     "laravel",
@@ -18,12 +18,12 @@
   "require": {
     "php": ">=7.2",
     "doctrine/dbal": "^2.9",
-    "illuminate/bus": "^7.0",
-    "illuminate/console": "^7.0",
-    "illuminate/contracts": "^7.0",
-    "illuminate/database": "^7.0",
-    "illuminate/events": "^7.0",
-    "illuminate/notifications": "^7.0",
+    "illuminate/bus": "^8.0",
+    "illuminate/console": "^8.0",
+    "illuminate/contracts": "^8.0",
+    "illuminate/database": "^8.0",
+    "illuminate/events": "^8.0",
+    "illuminate/notifications": "^8.0",
     "laravelcollective/html": "^6.0"
   },
   "require-dev": {
