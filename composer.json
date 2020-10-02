@@ -4,17 +4,9 @@
   "keywords": [
     "laravel",
     "schedule",
-    "manager",
-    "Code Studio",
-    "totem"
+    "manager"
   ],
   "license": "MIT",
-  "authors": [
-    {
-      "name": "Roshan Gautam",
-      "email": "roshan.gautam@hotmail.com"
-    }
-  ],
   "require": {
     "php": ">=7.2",
     "doctrine/dbal": "^2.9",
@@ -32,23 +24,17 @@
     "orchestra/testbench" : "^5.0",
     "phpunit/phpunit": "^9.0"
   },
-  "suggest": {
-    "nexmo/client": "Required for sms notifications."
-  },
   "autoload": {
     "psr-4": {
-      "Studio\\Totem\\": "src/",
-      "Studio\\Totem\\Tests\\": "tests/"
+      "Eilander\\Totem\\": "src/",
+      "Eilander\\Totem\\Tests\\": "tests/"
     }
   },
   "extra": {
     "component": "package",
-    "branch-alias": {
-      "dev-7.0": "7.0.x-dev"
-    },
     "laravel": {
       "providers": [
-        "Studio\\Totem\\Providers\\TotemServiceProvider"
+        "Eilander\\Totem\\Providers\\TotemServiceProvider"
       ]
     }
   },
